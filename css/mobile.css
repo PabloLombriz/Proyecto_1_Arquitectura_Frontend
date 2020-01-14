@@ -1,0 +1,29 @@
+@media (max-width: 360px) {
+
+.productos{
+  display: inherit;
+  height: auto;
+}
+.producto{
+  margin-top: auto;
+}
+.section_beneficios .content{
+  display: inherit;
+  height: auto;
+  padding: 0px;
+}
+.beneficio{
+  margin-top: auto;
+
+}
+.beneficios{
+  padding: 0px;
+}
+
+
+.section_testimonios .content{
+  display: inherit;
+  height: auto;
+  padding: 0px;
+}
+}

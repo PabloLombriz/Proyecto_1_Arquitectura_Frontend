@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+/*Variables*/
+
+:root{
+  --amarillo: #FDD009;
+}
+
+/* Navegacion */
+
+nav {
+  display: flex;
+  background-color: #efefef;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  color: #000;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav li a{
+  color: #000;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: #7D7D7D;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+/*Main Section*/
+
+.main_section{
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.productos{
+  background-image: url("../image/vector.png");
+  background-size: cover;
+  background-position: center top;
+  height: 300px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.producto{
+  padding: 30px;
+  margin-top: -120px;
+}
+.producto .content{
+  width: 260px;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.content h2 {
+  margin-bottom: -15px;
+}
+
+.content p {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333;
+  font-weight:400;
+}
+
+.image-content{
+  text-align: center;
+}
+
+.button{
+  width: 100%;
+  background-color: var(--amarillo);
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Rubik', sans-serif;
+  height: 35px;
+}
+.button2{
+  background-color: var(--amarillo);
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Rubik', sans-serif;
+  height: 35px;
+}
+
+.button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/*Section beneficios*/
+
+.section_beneficios .content{
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.beneficios{
+  text-align: center;
+  padding: 40px;
+}
+
+.beneficio{
+  padding: 20px;
+  margin: 20px;
+
+}
+/*Section testimonios*/
+
+.section_testimonios .content{
+  background-color: #efefef;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.testimonios{
+  background-color: #efefef;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonio{
+  background-color: var(--amarillo);
+  padding: 20px;
+  margin: 20px;
+  width: 210px;
+}
+
+/*Footer*/
+.pie {
+  background-color: #222;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-decoration: none;
+}
+.pie a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.pie a:hover{
+  color: var(--amarillo);
+}
+
+/*Productos*/
+.col-4 img{
+  width: 300px;
+}
+.col-8 h3{
+  padding-top: 100px;
+}
+
+/*Pagina de venta*/
+.modulo_pago{
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.col-4 h3, .col-4 p{
+  text-align: center;
+}
+.prod img{
+  max-width: 180px;
+  margin: auto;
+
+}
+.prod{
+  text-align: center;
+}
+
+#cntr-venta{
+  margin-top: 50px;
+}
+
+/*Formulario*/
+form{
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+label{
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+input{
+  width: 100%;
+  margin-bottom: 5px;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+/*FAQs*/
+.pyr{
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 15px;
+}
